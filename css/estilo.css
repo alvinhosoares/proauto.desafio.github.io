@@ -1,10 +1,11 @@
+/*----------animação------*/
 @keyframes vertical-line {
     from{
-        border-bottom: 4px groove rgb(227, 0, 0);
+        border-bottom: 5px groove rgb(251, 5, 5);
         
     }
     to{
-        border-bottom: 4px groove rgb(6, 171, 200);
+        border-bottom: 5px groove rgb(0, 211, 249);
         
     }
 }
@@ -33,9 +34,10 @@
 }
 .logo:hover{
     transition-duration: 1s;
+    
 }
 .logo-2{
-    color: rgb(20, 136, 245);
+    color: rgb(0, 18, 34);
     font-family: cursive;
     font-size: 35px;
 }
@@ -78,7 +80,7 @@ ol li{
     padding: 10px;
     text-align: center;
     animation-name: vertical-line;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-delay: 1s;
